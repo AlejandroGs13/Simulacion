@@ -22,9 +22,9 @@ public class Carro implements Runnable {
         car.x += car.vx;
         car.y += car.vy;
         try{
-            Thread.sleep(100);
+            Thread.sleep(40);
         }catch (Exception ex) {
-                
+                System.out.println("Error");
             }
         }
         
